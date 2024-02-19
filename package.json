@@ -1,0 +1,26 @@
+{
+  "name": "svitylo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vern-gora/svitylo-js.git"
+  },
+  "author": "vern-gora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vern-gora/svitylo-js/issues"
+  },
+  "homepage": "https://github.com/vern-gora/svitylo-js#readme",
+  "devDependencies": {
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
